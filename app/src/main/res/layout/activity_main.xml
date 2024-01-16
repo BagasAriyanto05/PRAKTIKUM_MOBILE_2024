@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Ini merupakan implementasi Activity dan Intent"
+        android:textAlignment="center"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Nama : Bagas Afza Joko Ariyanto"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nim : 32601900008"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Implementasi Explisit Intent"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Implementasi Implisit Intent"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn_recycleview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Menuju ke Recycle View"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn_keFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Menuju ke Tampian Fragment"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn_keBottomNavigasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Menuju ke Tampian Button Navigasi"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn_keRetrofit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Menuju ke Tampian Retrofit"
+        android:textAlignment="center" />
+
+</LinearLayout>
